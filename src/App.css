@@ -1,0 +1,341 @@
+body, html{
+  margin:0;
+  padding:0;
+}
+
+
+.App {
+  text-align: center;
+  background-image:  linear-gradient(to bottom, rgb(243, 243, 243) , white);
+  
+ 
+  width:100%;
+  height:100vh;
+}
+
+#container {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  padding-left: 50px;
+  align-items: center;
+ 
+}
+#backgroundImg {
+position: absolute;
+bottom: 0;
+right: 0;
+
+}
+
+.mainHeading{
+ 
+  font-size: 80px;
+  max-width: 1300px;
+  margin-bottom: -20px;
+  
+  z-index: 2;
+
+}
+
+.subHeading{
+  font-size: 50px;
+  margin-top: 10px;
+  min-width: 1000px;
+  z-index: 2;
+  
+}
+
+.automationContainer{
+  
+  
+ max-width: 500px;
+ max-height: 500px;
+ overflow: hidden;
+  box-shadow: 2px 10px 20px rgb(144, 146, 5);
+}
+.automationImg{
+ 
+  width: 400px;
+  height: 400px;
+
+
+  margin-bottom:50px
+ 
+}
+.classesContainer{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: dotted;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding-top: 20px;
+  width: 1600px;
+  z-index: 5;
+  
+}
+
+.detectionImg{
+ 
+  width: 450px;
+  height: 460px;
+ 
+}
+.detectionContainer{
+  
+  
+  max-width: 500px;
+  max-height: 500px;
+  overflow: hidden;
+  box-shadow: 2px 10px 20px rgb(27, 78, 243);
+}
+
+
+.businessImg{
+ 
+  width: 370px;
+  height: 400px;
+  margin-bottom: 50px;
+ 
+}
+.businessContainer{
+  
+  max-width: 500px;
+  max-height: 500px;
+  overflow: hidden;
+  box-shadow: 2px 10px 20px rgb(24, 221, 90);
+}
+.classesHeading{
+  font-size: 20px;
+  text-decoration:underline;
+}
+
+.blob{
+  width: 380px;
+ 
+  position: absolute;
+  top: 1;
+  margin-top: -40px;
+ 
+}
+
+
+
+#secondContainer{
+  
+  margin-top: 60px;
+ width: 80%;
+  min-width: 1200px;
+ box-shadow: 2px 2px 50px grey;
+margin-bottom: 20px;
+ 
+  
+}
+
+#subHeading2{
+
+  font-size: 55px;
+  
+  text-shadow: 2px 2px 15px black;
+  margin-bottom: 100px;
+}
+
+#manufacContainer{
+
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+
+#manufactText{
+  
+  width: 800px;
+  margin: 100px;
+  text-align: left;
+  
+}
+
+
+
+#manufactImage{
+  
+  margin-right: 100px;
+  
+}
+
+#detectionContainer{
+
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+#detectionText{
+  
+  width: 800px;
+  order:2;
+  text-align: left;
+  margin: 100px;
+}
+
+
+#detectionImage{
+ 
+  order:1;
+  margin-left: 100px;
+}
+
+
+
+#flowContainer{
+
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+#flowText{
+  
+  width: 800px;
+  margin: 100px;
+  
+  text-align: left;
+}
+
+
+#flowImage{
+  
+  margin-right: 100px;
+  
+}
+
+.classHeadings2{
+
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+.classText2{
+
+  font-size: 18px;
+  text-align: center;
+}
+
+#thirdContainer{
+
+  width: 100%;
+  margin-top: 20px;
+  margin-left: -48px;
+  
+}
+
+#contactContainer{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+
+#contact1{
+  
+  width: 48%;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  box-shadow: 2px 5px 10px grey;
+  background-image:  linear-gradient(to bottom, rgb(243, 243, 243) , white);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  min-width: 800px;
+  
+}
+
+#contact2{
+  box-shadow: 2px 5px 10px grey;
+  width: 48%;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  background-image:  linear-gradient(to bottom, rgb(243, 243, 243) , white);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  min-width: 800px;
+}
+
+#contactMainHeading{
+
+  margin-bottom: 30px;
+  text-shadow: 2px 4px 10px grey;
+  font-size: 40px;
+}
+
+
+#form {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.formInputs{
+
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+
+
+
+.formLabels{
+
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#submitForm {
+
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 50px;
+  background-color: darkgrey;
+  color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+#submitForm:hover {
+
+  background-color: black;
+}
+
+.contactInfo{
+
+  font-size: 30px;
+  margin-bottom: -20px;
+}
+
+.contactHeaders{
+
+  font-size: 30x;
+  text-shadow: 0px 4px 8px grey;
+  text-decoration: underline;
+}
